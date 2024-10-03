@@ -1,0 +1,14 @@
+C:\Projetos\Criando seu Heroi\bin\Debug\net8.0\Criando seu Heroi.exe
+C:\Projetos\Criando seu Heroi\bin\Debug\net8.0\Criando seu Heroi.deps.json
+C:\Projetos\Criando seu Heroi\bin\Debug\net8.0\Criando seu Heroi.runtimeconfig.json
+C:\Projetos\Criando seu Heroi\bin\Debug\net8.0\Criando seu Heroi.dll
+C:\Projetos\Criando seu Heroi\bin\Debug\net8.0\Criando seu Heroi.pdb
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.AssemblyInfoInputs.cache
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.AssemblyInfo.cs
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.csproj.CoreCompileInputs.cache
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.dll
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\refint\Criando seu Heroi.dll
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.pdb
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.genruntimeconfig.cache
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\ref\Criando seu Heroi.dll
