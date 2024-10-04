@@ -12,3 +12,4 @@ C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\refint\Criando seu Heroi.dll
 C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.pdb
 C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.genruntimeconfig.cache
 C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\ref\Criando seu Heroi.dll
+C:\Projetos\Criando seu Heroi\obj\Debug\net8.0\Criando seu Heroi.sourcelink.json

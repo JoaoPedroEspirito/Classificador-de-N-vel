@@ -1,8 +1,11 @@
 ﻿using System;
+using Criando_seu_Heroi.Models;
 
+Consulta consulta = new Consulta();
 // Declarar variáveis
 string nome;
-int experiencia;
+int vitoria = 0, derrota = 0 , experiencia = 0;
+
 string continuar = "S";
 
 do
@@ -15,44 +18,18 @@ do
     Console.Write("Digite a quantidade de experiência (XP) do herói: ");
     experiencia = int.Parse(Console.ReadLine());
 
+    Console.Write("Digite a quantidade de vitórias do herói: ");
+    vitoria = int.Parse(Console.ReadLine());
+
+    Console.Write("Digite a quantidade de derrotas do herói: ");
+    derrota = int.Parse(Console.ReadLine());
+
     // Classificação do nível do herói
-    string nivel;
+    consulta.Classificacao(nome,experiencia);
 
-    if (experiencia <= 1000)
-    {
-        nivel = "Ferro";
-    }
-    else if (experiencia >= 1001 && experiencia <= 2000)
-    {
-        nivel = "Bronze";
-    }
-    else if (experiencia >= 2001 && experiencia <= 5000)
-    {
-        nivel = "Prata";
-    }
-    else if (experiencia >= 5001 && experiencia <= 7000)
-    {
-        nivel = "Ouro";
-    }
-    else if (experiencia >= 7001 && experiencia <= 8000)
-    {
-        nivel = "Platina";
-    }
-    else if (experiencia >= 8001 && experiencia <= 9000)
-    {
-        nivel = "Ascendente";
-    }
-    else if (experiencia >= 9001 && experiencia <= 10000)
-    {
-        nivel = "Imortal";
-    }
-    else
-    {
-        nivel = "Radiante";
-    }
+    Console.WriteLine(consulta.SaldoRank(vitoria,derrota));
 
-    Console.WriteLine($"O Herói de nome {nome} está no nível de {nivel}.");
     Console.Write("Deseja continuar use S/N: ");
-    continuar = Console.ReadLine();
+    continuar = Console.ReadLine().ToUpper();
 }while(continuar != "N");
 Console.WriteLine("Fim !");
