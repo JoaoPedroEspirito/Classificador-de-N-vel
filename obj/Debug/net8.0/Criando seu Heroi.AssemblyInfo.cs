@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Criando seu Heroi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cfef07c0ac4118e3e4eaba1365c793e3e3d2d0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adf25a9d32ba30006d95c986c10fea3c9aa84de4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Criando seu Heroi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Criando seu Heroi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

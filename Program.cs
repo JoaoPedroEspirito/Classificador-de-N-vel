@@ -1,35 +1,40 @@
 ﻿using System;
 using Criando_seu_Heroi.Models;
 
-Consulta consulta = new Consulta();
-// Declarar variáveis
-string nome;
-int vitoria = 0, derrota = 0 , experiencia = 0;
-
-string continuar = "S";
-
-do
+class Program
 {
-    // Solicitar o nome do herói
-    Console.Write("Digite o nome do herói: ");
-    nome = Console.ReadLine();
+    static void Main()
+    {
+        string nome, tipo;
+        int idade = 0;
+        string continuar = "S";
 
-    // Solicitar a quantidade de experiência (XP)
-    Console.Write("Digite a quantidade de experiência (XP) do herói: ");
-    experiencia = int.Parse(Console.ReadLine());
+        do
+        {
+            // Solicitar o nome do herói
+            Console.Write("Digite o nome do Herói: ");
+            nome = Console.ReadLine();
 
-    Console.Write("Digite a quantidade de vitórias do herói: ");
-    vitoria = int.Parse(Console.ReadLine());
+            // Solicitar a idade do herói
+            Console.Write("Digite a idade do Herói: ");
+            idade = int.Parse(Console.ReadLine());
 
-    Console.Write("Digite a quantidade de derrotas do herói: ");
-    derrota = int.Parse(Console.ReadLine());
+            // Solicitar a classe do herói
+            Console.Write("Digite a classe do Herói (mago, guerreiro, monge, ninja): ");
+            tipo = Console.ReadLine().ToLower();
 
-    // Classificação do nível do herói
-    consulta.Classificacao(nome,experiencia);
+            // Criar um objeto da classe 'Classe' com os valores fornecidos
+            Classe heroi = new Classe(nome, idade, tipo);
 
-    Console.WriteLine(consulta.SaldoRank(vitoria,derrota));
+            // Exibir o ataque do herói
+            heroi.Ataque();
 
-    Console.Write("Deseja continuar use S/N: ");
-    continuar = Console.ReadLine().ToUpper();
-}while(continuar != "N");
-Console.WriteLine("Fim !");
+            // Perguntar se o usuário deseja continuar
+            Console.Write("Deseja continuar? (S/N): ");
+            continuar = Console.ReadLine().ToUpper();
+
+        } while (continuar != "N");
+
+        Console.WriteLine("Fim!");
+    }
+}
